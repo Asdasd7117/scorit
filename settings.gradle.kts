@@ -24,4 +24,4 @@ rootProject.name = "SecureGuard SDK"
 
 // الموديولات الموجودة بالمشروع
 include(":app")
-include(":securitysdk")   // ← تأكد أن اسم الموديول SDK هو securitysdk
+include(":securitySDK")   // ← تأكد أن اسم الموديول SDK هو securitysdk

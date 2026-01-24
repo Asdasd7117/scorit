@@ -8,6 +8,6 @@ workflows:
       - name: Fix gradlew permissions
         script: chmod +x ./gradlew
       - name: Build AAR
-        script: ./gradlew assembleRelease
+        script: ./gradlew :SecureGuardSDK:assembleRelease
     artifacts:
-      - app/build/outputs/aar/*.aar
+      - SecureGuardSDK/build/outputs/aar/*.aar

@@ -5,6 +5,8 @@ workflows:
     environment:
       vars: {}
     scripts:
+      - name: Fix gradlew permissions
+        script: chmod +x ./gradlew
       - name: Build AAR
         script: ./gradlew assembleRelease
     artifacts:

@@ -3,9 +3,7 @@ workflows:
     name: Android Kotlin Build
     max_build_duration: 60
     environment:
-      android: true
-      flutter: false
-      xcode: false
+      vars: {}
     scripts:
       - name: Build APK
         script: ./gradlew assembleDebug
